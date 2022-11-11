@@ -111,7 +111,7 @@ tr > td {
 
 
 .image1{
-    height: 40vh;
+    height: 50vh;
     padding: 5vh 10vw;
     background: linear-gradient(to left , #880687 , #3d063d);
     margin-bottom: 7vh;
@@ -492,6 +492,191 @@ footer > div div{
 }
 
 
-@media screen and (max-width:400px) {
-    
+@media screen and (max-width:500px) {
+    nav{
+        height: 10vh;
+        flex-direction: column;
+    }
+    .logo{
+        font-size: 3vh;
+    }
+    .nav-box-2 > div , .nav-box-3 > div > a{
+        font-size: 1.3vh;
+    }
+    .dd1{
+        top: 8vh;
+        margin: 0;
+    }
+    .dd1 a , .dd1 th{
+        font-size: 1vh;
+        padding: 1vh 1vw;
+    }
+    .dd1 a, .dd1 td{
+        padding: 1vh 1vw;
+    }
+
+
+    .image1{
+        height: 30vh;
+    }
+    .image1 > h1{
+        font-size: 4vh;
+    }
+    .image1 > div{
+        font-size: 2vh;
+        width: 100%;
+    }
+    .image1 > form > input{
+        font-size: 1vh;
+        border-radius: 0.6vh;
+    }
+    .image1 > form{
+        height: 4vh;
+    }
+
+
+    .signup1{
+        padding: 0;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .signup1 > h1{
+        font-size: 2.3vh;
+    }
+    .signup1 > div > h4{
+        font-size: 1.2vh;
+        margin-right: 2vw;
+    }
+    .signup1 > div > a{
+        font-size: 1.4vh;
+        padding: 1vh 2vw;
+        border-radius: 1vh;
+    }
+
+
+    .stdSec{
+        height: 20vh;
+        display: flex;
+        align-items: center;
+    }
+    .stdSec > h1{
+        font-size: 2.3vh;
+    }
+    .stdSec > div{
+        font-size: 1.2vh;
+        width: 80vw;
+        text-align: center;
+    }
+
+
+    .cards-1{
+        height: 50vh;
+    }
+    .cards-1 > div > img{
+        height: 45%;
+    }
+    .cards-1 > div > h2{
+        font-size: 2vh;
+    }
+
+
+    .signup2{
+        height: 30vh;
+    }
+    .signup2 > h3{
+        font-size: 1.3vh;
+    }
+    .signup2 > a{
+        padding: 1vh 2vw;
+        border-radius: 0.7vh;
+    }
+    .signup2 > h1{
+        margin-bottom: 0;
+    }
+
+
+    .photo1{
+        height: 20vh;
+        margin-bottom: 5vh;
+    }
+    .photo1 > h1{
+        font-size: 2.8vh;
+    }
+    .photo1 > div{
+        font-size: 1.2vh;
+    }
+
+
+    .head1{
+        font-size: 2.5vh;
+        font-family: 'felix titling';
+        margin-bottom: 5vh;
+    }
+
+
+    .cards-2{
+        margin: 0;
+        flex-wrap: wrap;
+        height: 45vh;
+    }
+    .cards-2 > div{
+        width: 45%;
+        height: 20vh;
+    }
+    .cards-2 > div > h2{
+        font-size: 1.5vh;
+    }
+    .cards-2 > div > div{
+        font-size: 1vh;
+    }
+    .cards-2 > div > a{
+        font-size: 1vh;
+    }
+
+
+    .signup3{
+        margin: 0;
+    }
+    .signup3 > h3{
+        margin-bottom: 0;
+    }
+    .signup3 > a{
+        padding: 1vh 2vw;
+    }
+
+
+    .course-help{
+        padding: 3vh 2vw;
+    }
+    .course-help > h2{
+        padding: 2vh 0 1vh 0;
+    }
+    .course-help > h2::before{
+        height: .5vh;
+        width: 6vw;
+    }
+    .course-help > div a{
+        font-size: 1vh;
+    }
+
+
+    .note{
+        height: 5vh;
+        padding: 0 1vh;
+        margin: 0;
+    }
+    .note > div{
+        font-size: 1vh;
+    }
+
+
+    footer{
+        margin: 5vh 0;
+    }
+    footer a{
+        font-size: 0.7vh;
+    }
 }
